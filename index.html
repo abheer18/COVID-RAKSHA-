@@ -22,11 +22,19 @@
 
 
   </head>
+  <style>
+    .navbar{
+      background-color: rgb(233 240 255);
+    }
+  </style>
   <body>
 
 <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
       <div class="container-fluid">
+        <div>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADHUlEQVRoge2Zz2vUQBTHP42rVbetWmipVdCKoB78hXrx4lFvUtD6E1HUi/4B/jWCIojag/Tm3Xr0UHoVvNhWK1R3RWytbT1Mws5m503eJJtacD+wkMybTN43896bZBY6dPi/6cpxTQQcB0aANeAjMBUfrzubclxzAjgMVOLfQDzO5zb6pSbKcc0BR9vBnGMVJvSmVWCLo30zMFjcnXBCBezw2PYUcSQv7RQwXMSRvIQK6PPYejLspRAqYGeGfd1nIVRAb4Z9QwuoYqqNj0HcVao0QgT4EjihCxhSjtcNPAPqQA14GrcFEbIS70Xn3ArwSdHvCXAT43Q35vVkH/A6wKegGdBWmN1kv2P1Apcd7WNkF4omQgRoB94K9Gf0SZ58mm7gdoBPQQKyKpBNVjVyPf2EawH3UQvQVCAb32tFL3DWYz+NyQUVWgFSBVoU2ncB2wTbDfzVJgLuK/0qLGAW+CHYpDAaU9zvkqIPUFxAHSPChUtAVvgkHAJOKfoVFlBDFjBE6zojVR8XdzWdtAKkNaAGzAPLDlvyuWnjqz5pRlF8s2sEVGNn0vwBfgKrwBfhWrsaacMnYQg4n9VJI8AX/wmaPLiOO3yWMDsbLu74XSsm4Lt1LAmwP3KuCH0mgReC7QIZOVPBiDgG7Eeu3S7sGfgFfMPU/zTDmD0jKXzGgTfAI1ofaB/utWYBmAAeVICjwBG12w1qqfMZZAHnkMPnOWYteQ+cUd67nzi8IswOWx7SAqQwGgCuCrZJGguhFEY+RvNuRv3GVCCbBdzTHSHP8Lh1/BgzIyGsRMgVwMcHR9saMCf0rzrakvBJqNEsSMNEBZiOT0bITuJFjOBpwT5La0h2Adsdfd/R+h51D/MgLuL/gEqS+GEFsxBNxb+izMXj2aFZxV2uXznaloBbITds94bsMvA11SaFT56kbaGMHeV0Nepx9JmktYrl4l8JCE1WkTIE1GlOzrSAtoUPlPenhF1O0znQtvCB8gTMWMdpAW0LHyhPwDzmewGaBaQXr8KUJWCVxmpt58BL5E2ADUcEnATe0ti8Ddlb6tChg4K/6UZ7OluzaVEAAAAASUVORK5CYII="/>
+        </div>
         <a class="navbar-brand" href="#">Covid Raksha</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,10 +42,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About Us</a>
+
+              <a class="nav-link active" aria-current="page" href="#aboutus">About Us</a>
+
+           
+
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
+              <a class="nav-link" href="#contacts">Contact Us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -169,20 +181,164 @@
       </div>
     </div>
 </div>
-    <footer>
-      <div class="footer">
-        <div class="footer-about">
-       <h1>About Us</h1>
-       </div>
-        <div class="footer-text">
-              <p>COVID RAKSHA is a </p>
+<section class="mt-5" id="aboutus">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+       <h3 class="text-success text-center">About Us</h3>
+       <p class="text-center mt-3 mx-2"> COVID RAKSHA is a web service that allows the public, which includes communities and organizations, to see the current available resources, demands, latest news about the pandemic. Using this service, people and organizations with extra supplies can donate and assist the community.<br/> We also want to make sure that our user’s have the most valid and recent news that they can get, and the news which is provided are from goverment verfied sources. </p>
+      </div>
+      <div  class="col-lg-6">
+ <h3 class="text-success text-center" >What We Do</h3>
+ <p class="text-center mt-3 mx-2">People who are unable to find the resources for them can enquire about the resources and will be helped, 
+   <pre >  This service helps people to stay updated about the pandemic.
+  We offer following services:
+  -INFORMATION ABOUT THE VERIFIED RESOURCES
+  -INFORMATION ABOUT THE TEST/VACCINATING CENTRES
+  -UPDATES ON THE PANDEMIC
+  -STATS OF THE CASES
+  -NEWS OF ALL DIGITAL MEDIA PLATFORM ABOUT COVID-19</pre>
+
+  </p>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+
+<section class="contact callme pt-3" id="contacts">
+
+  <h2 class="text-white  text-center my-4">Contact Us</h2>
+  <hr class="w-50 m-auto text-white">
+
+  <div class="conatiner-lg p-4">
+      <!-- <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="section-tit text-center">
+                  <h2 class="fw-bold mb-3 text-white font"  data-aos="zoom-in-down">Contact me</h2>
+              </div>
+          </div>
+      </div> -->
+      <div class="row">
+          <div class="col-md-5">
+              <div class="contact-item d-flex">
+                  <div class="icon fs-5 text-danger">
+                      <img
+                          src="data:image/png;base64,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" />
+                  </div>
+                  <div class="text ms-3">
+                      <h3 class="fs-4 text-danger font">Email</h3>
+                      <p class="text-info"> covidraksha@info.com</p>
+                  </div>
+              </div>
+
+             
+
+              <div class="contact-item d-flex">
+                  <div class="icon fs-5 text-danger">
+                      <img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAC3UlEQVRoge2YTWgTQRiGn9lgrfUPEYqKCHoXlArSCupF8NCCBy8etIdSWrulaoQ2iSABaZO0iiJNYixS8aAieBFE7FWpWIpeREHRgx5K9CDUv9ra/bxUTWKy2U0mEcs+kEPenf3mfTM72ZkBDw8PD48yULZX49EWFJeBdTat3iLSjhkc0+rMIUaRqwnszQNsQqlRbY5cYh9A2OiwzobyrZSGfYD/gEUfwKqKizIoFuBjVVyUQbFJ/KFKPkrGPoDiVZV8lEyxAONV8lEyReaA9cBZGRUq30pp2AdIzz4C9c6mhSDip6svoteWc+wDhMMWcL3A1XlEtWMGz2t35YLiLzKfGgF+5KhziBzG7LtSEVcuKB6go/c1cDNHfYYZvFERRy5xtpQQNUD2KGwnMbinIo5c4iyA2fcCRTxbtEaJh1dUwJMrnC/m5mZOA1MZymZU7QXtjlziPEBPeBpoAyRDbSMePabblBvcLae7AveA4SxNcY7kYLNGT65wvx9YNtOLMJmh+BDrFsnIXn22nGO/qS9Eqn89lm8iZ8v5CcvaR3fosR5rzihtR9ZxagrLaAGmM9SVGMYYw9HdWpw5pLQR+EU82oTiPpD5d/oVOLgwXwqTiIaA/oVvs8CXPK3eIBzHDDwsVKa8PbEZGAejGficodYBd0hEzYL3JWM9/DEPUAOsyfNpQHHNzkJ5I/CLS7EdWHIXqM/ShRTfa07g93/7rcVjbSgZcdV3V6BgWz2nEp19k/iMJuBllq7ooHb2KcmBXQDEI4dQkkLXD6ezEACp6GrmuQocyNPTE4StwBLXdW1GQG8AABFFInYSxRmgVkvNij9CmSglmIGzGFYDMKG9fg6VO5nrDD3n/UwjQitCulLd6H+E8nExvArfUj9KdQNrXd9f1Tlgx9DQcuqsVpQcAXY6ukdIYwYKHvFXN0AmicgWxNiPkkZQ20Dq+fs9ksYQk6PB2//GpIeHh8ei5yePyK8E5ckfwQAAAABJRU5ErkJggg==" />
+                  </div>
+                  <div class="text ms-3">
+                      <h3 class="fs-4 text-danger font">Phone</h3>
+                      <p class=" text-info">+91 9896335284</p>
+                  </div>
+              </div>
+
+              <div class="contact-item d-flex">
+                <div class="icon fs-5 text-danger">
+                 <a href=" https://api.covid19india.org/" target="_blank"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADNUlEQVRoge2Zv28cRRTHP2929i62iS1hQUNjQIIG0SBqFJKSloIEREnF38HfQEmkKEiU1AQpLUICpYsENkhBguSC7bvbvZ2dmUexB/Hv2TtsnzH7aVaz8+be+2p+vDd70NHR8Z9GZh1w/YvddTW8rqIbRnVDlQ2EDeB50D6wDKwAPWANUYAdEAc6BgqgQvQpypaobkXRLWPMJnX+8JuPVwenLuDa7eE7iH4g6DXgtWc9esDyYBumAhJ2e9rCQ5R7SLx779aL91OxJQW8e3t4B9GbRwZ3FgL2vFPlzrcfvfDhSfGZkzoBqt3xzZTNWTEZlrdSNjZlMH70FPfnmHxtiXylT9ZLDvlXeOdx44pyWOIKl7RvFU1dVLiiAkAyIetbstwieUbWy8jyDDEZGBABMQYRIJtOcIgooCGiqqBK9JFQe4IPeOeJPjbPEICjF9XcAvaiIeJLhy/dMSt5/1s9tMv0+B0w85nYYg9cdDoBi6YTsGguvwCN8TziOMZ52iQpYPTk93+Sy3kSQ2T8x3bSLpnIXFFQl7/QW3mOfGkZe+UKxmanEuRB/k6Srpg0ZYSmp6BVJlZVqtGIajRCgczmZHmO6eUYa8msBWMQIyDNU5qaolkF2pQQGhWNEdWIRiX4QAyR4Gqi88RpydHQLi3PVZkF7wneQ1lO/Txzpocc72/v75cD3bPXEpf/FLrodAIWTSdg0SQFRD85jziO9l2nfScFlINf8eXuqQQ0C6HYxj3+OWmXTGQaA5PtR5jhY+zSKqZ/FdNbQua5wJ7kB0VdQSiH+HIH9XWrca0zcQwONxrAaICIYGwfsX3E9jC2h5gekhmQHEQagWY6wTE2V3lVYgxo9BA90Xs0VMR6gtZV88UCmCUjz1VKqCqhnsC+NXq0Uz38WeJE+1m5/KfQRacTsGj+DwLkx7MP41h+SBkkBfisvg76JXCeN/ugcDfY/EbKsPVhvHbjs1eMt+8D7wFvA/02PzVDHqhAvlP4GrVf7dz/dLNNXPNlk7c+z9dWh2+K8oYRfVWVl0FeQllHWKf5o88CV6cChoAHCpAB8AT4DXQTlZ9U5cFOsfyA7z9pVz90dHRcHv4Cd7Nuvq2Ur5kAAAAASUVORK5CYII="/></a>
+                </div>
+                <div class="text ms-3">
+                    <h3 class="fs-4 text-danger font">Database</h3>
+                    <!-- <p class="text-info"> https://api.covid19india.org/</p> -->
+                </div>
             </div>
-          
-            <img class="logo" src="https://i.ibb.co/G0D7Dm1/Untitled-1.png">
-       <p style="color:blue">We stand with everyone fighting on the frontlines</p>
+
+
+
+
+          </div>
+          <div class="col-md-7">
+              <div class="contact-form">
+                  <form action="">
+                      <div class="row">
+                          <div class="col-lg-6 mb-4">
+                            <b class="fs-5 text-white">Name :</b>
+                              <input type="text" class="form-control form-control-lg border-info shadow-sm" name=""
+                                  id="" aria-describedby="helpId" placeholder="xyz">
+                          </div>
+                          <div class="col-lg-6 mb-4">
+                            <b class="fs-5">Contact No. :</b>
+                              <input type="text" class="form-control form-control-lg border-info shadow-sm" name=""
+                                  id="" aria-describedby="helpId" placeholder=" +91">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12 mb-4">
+                            <b class="fs-5 text-white">Email :</b>
+                              <input type="text" class="form-control form-control-lg border-info shadow-sm" name=""
+                                  id="" aria-describedby="helpId" placeholder="xyz@gmail.com">
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12 mb-4">
+                            <b class="fs-5 text-white">Meassage :</b>
+                              <textarea rows="5" class="form-control form-control-lg border-info shadow-sm"
+                                  placeholder="Message"></textarea>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12 my-3 ">
+                              <a href="" class="btn btn-light " id="neon">
+                                  Send message
+                              </a>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
       </div>
-      </div>
-    </footer>
+
+
+  </div>
+</section>
+
+
+
+
+
+
+<section>
+  <div class="container-fluid border-top py-2 bg-light">
+
+    <div class="row">
+ 
+                <div class="col-lg-6 d-flex px-5  ">
+            <div class="instagram mx-2 my-1">
+                <a href="https://www.facebook.com/coronavirus_info" target="_blank">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAB+klEQVRIib3VvW+NcRQH8E97KxKD25akb6k0jU1SjYhoCQnxUrNFBF0YiJmpGtLBQA0WBjFY/AtWjZA0DRMDIV6KCNImDZYy/M69efK4z+MifJObPL/zO+d8z+vv8o/R0oROK7ZiI7pD9g6PcB/LZcaVkrsqJnALm/AFH/AVAxjHFDowi29NBFvHGN7gMrpK9LoxjdfY26zzE3iKod8IaBjPcPxXimPhvCzqdTgcgRzC7pB3B0lhJlUp1bLIL+Itbkvlu4lXmfvh8LG6kfFUGBXhCGawJiPrzBHAFVzIG1cwr7w0d7Ezvo9Ko/q9AUGPNCCtWeG2cFCGz1L0K/AJ/SW6MxiRYRmSlqYMK/ERa7HYIPIsHoRPbSHokZqXxwh25GRtWIUzcV7C1ZzOPHqzGbRI9cxjFw5I21obgEXcCNkGHGtgtxw+6xm8V1zTO9KE1bCAs/F9UK6ZgV48z2Ywh9ECgpPSW3Mvzl1xnpWyetLAZjR81lGRetCXU2zHYPyWQtYvbXtNnl+qPqkHPz2k53GpIAs5gscletM41+iiU1rzzX9BsEUa3/Yi9v1Scwb+gGAwbPcUOa9hPBTzTS8j2I4X0hPSFMbwEtcisiKC9bgezvc167yGDkxKOzIn/WXWCBbwUJqWCSU1bwYVqfGn4lzF6ZC1FRn9N/wArfppJBBL4TQAAAAASUVORK5CYII="/> </a>
+            
+                </div>
+            <div class="github mx-2 my-1">
+                <a href="https://github.com/Kunal9155" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABWklEQVRIid3UPUtcQRTG8Z/KNtFGCyUoimBlK4IoNhF8AYsglmKr38BCIrERUqRJE8HGNPkCKay0sLfQwi2sjArbKCwiUbK+FHcHlstedtbdRh+Y4s6c83/OHO4c3ota64zvwFec4QGX+Im+iphhfAwf3/EpEt6FYzxXWdfYxD4O0RKSLnCL2QiD3xnwypXHHD6HpH/lgxI2kMuAd+MxwuA/rtAfEvOpgFMsoi1lMBUBD/kDlYnrGYGX+IEFDGEm0uBL+urtOIpMjlmrARx+z+Nyzx7Tzq9UIb1x0MTqn6X6DxN4ahI8n3WttSaZfMsyyGEeJw3A79GbZdCJYoPVb2fBg1YaaNN5uciaWpLMpnrgJUzGwINyWMZdBPxBMlaiNYJdycCqBS9iuhZwHDvYk7zA2Lb8UeVBZWkQW/hbA3qDXxiLBbdU2RvEKHrwQdKqguSFnmjevHojegFjNQfqgkRRTwAAAABJRU5ErkJggg=="/></a>
+            </div>
+            <div class="linkedin mx-2 my-1">
+                <a href="https://www.linkedin.com/in/kunal-arora-410098211/" target="_blank">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAA5UlEQVRIie3UsU4CQRSF4U+wkMQQSgsTKDShNFjR+TQ+h6XP4ovQqLEksYHEQihppFsLd8moww5jQBr+5Caz2XPPydyZDAf2zdGP73MMMUC3rDO0cIJ2qVtgiQ+8Y1rWM0Z4i4X1UGypepVpIwi4ydl6gpVXGHC9xYCVVxjQTzS9ZAREvV7Vz7WJW8wTuqL0+kWqseIUd75u0TrtLBZQ11BE9Jd4WKNdVqJGpDGHVo540xF1cO8PI9rJIR8HARNc1OzwEVc1/0Mm1SI8g3GiaVPzb15hwFOGQYqo104eu399rg/sh08xmJIfb9+U4wAAAABJRU5ErkJggg=="/></a>
+            </div>
+        </div>
+
+
+        <div class="col-lg-6">
+            <p class="m-0 text-center text-dark fw-bold fs-5">&copy; 2021 | Covid Raksha</p>
+        </div>
+    </div>
+</div>
+</section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -194,3 +350,15 @@
         </script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
