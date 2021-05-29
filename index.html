@@ -51,10 +51,10 @@
             <li class="nav-item">
               <a class="nav-link" href="#contacts">Contact Us</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown ">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Testing Centers</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu  " id="deco" aria-labelledby="navbarDropdown">
                 <li><a href="https://www.google.com/maps/search/covid+testing+centre+Andhra+pradesh/@11.4152747,69.3368808,5z/data=!3m1!4b1">Andhra Pradesh</a></li>
                 <li><a href="https://www.google.com/maps/search/covid+testing+centre+Arunachal+pradesh/@28.0526443,93.6107647,8z/data=!3m1!4b1">Arunachal Pradesh</a></li>
                 <li><a href="https://www.google.com/maps/search/covid+testing+centre+Arunachal+pradesh/@28.0526443,93.6107647,8z/data=!3m1!4b1">Arunachal Pradesh</a></li>
@@ -205,7 +205,8 @@
           <h2 style="color:#ffffff;">DONATIONS CAN PLAY A BIG ROLE, DONATE NOW IN PM CARE FUND</h2><BR>
           <h3 style="color:#ffffff;">TOGETHER WE CAN DO THIS #FIGHTCORONA</h3></h3>
         </div>
-        <span class="btn message"><a href="https://www.pmcares.gov.in/en/">DONATE NOW</a></span>
+        <!-- <span class=""><a href="https://www.pmcares.gov.in/en/">DONATE NOW</a></span> -->
+        <a class="btn btn-primary bg-warning fw-bold text-dark"  href="https://www.pmcares.gov.in/en/" target="_blank">DONATE NOW</a>
       </div>
     </div>
 
@@ -263,15 +264,17 @@
 
 
 
-<section class="mt-5" id="aboutus">
+<section class="mt-5 mb-5" id="aboutus">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
        <h3 class="text-success text-center">About Us</h3>
+       <hr class="w-25 m-auto text-success" >
        <p class="text-center mt-3 mx-2"> COVID RAKSHA is a web service that allows the public, which includes communities and organizations, to see the current available resources, demands, latest news about the pandemic. Using this service, people and organizations with extra supplies can donate and assist the community.<br/> We also want to make sure that our user’s have the most valid and recent news that they can get, and the news which is provided are from goverment verfied sources. </p>
       </div>
       <div  class="col-lg-6">
  <h3 class="text-success text-center" >What We Do</h3>
+ <hr class="w-25 m-auto text-success" >
  <p class="text-center mt-3 mx-2">People who are unable to find the resources for them can enquire about the resources and will be helped, 
    <pre >  This service helps people to stay updated about the pandemic.
   We offer following services:
@@ -296,13 +299,7 @@
   <hr class="w-50 m-auto text-white">
 
   <div class="conatiner-lg p-4">
-      <!-- <div class="row justify-content-center">
-          <div class="col-lg-8">
-              <div class="section-tit text-center">
-                  <h2 class="fw-bold mb-3 text-white font"  data-aos="zoom-in-down">Contact me</h2>
-              </div>
-          </div>
-      </div> -->
+     
       <div class="row">
           <div class="col-md-5">
               <div class="contact-item d-flex">
@@ -330,11 +327,11 @@
               </div>
 
               <div class="contact-item d-flex">
-                <div class="icon fs-5 text-danger">
+                <div class="icon fs-5 text-danger mt-2">
                  <a href=" https://api.covid19india.org/" target="_blank"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAADNUlEQVRoge2Zv28cRRTHP2929i62iS1hQUNjQIIG0SBqFJKSloIEREnF38HfQEmkKEiU1AQpLUICpYsENkhBguSC7bvbvZ2dmUexB/Hv2TtsnzH7aVaz8+be+2p+vDd70NHR8Z9GZh1w/YvddTW8rqIbRnVDlQ2EDeB50D6wDKwAPWANUYAdEAc6BgqgQvQpypaobkXRLWPMJnX+8JuPVwenLuDa7eE7iH4g6DXgtWc9esDyYBumAhJ2e9rCQ5R7SLx779aL91OxJQW8e3t4B9GbRwZ3FgL2vFPlzrcfvfDhSfGZkzoBqt3xzZTNWTEZlrdSNjZlMH70FPfnmHxtiXylT9ZLDvlXeOdx44pyWOIKl7RvFU1dVLiiAkAyIetbstwieUbWy8jyDDEZGBABMQYRIJtOcIgooCGiqqBK9JFQe4IPeOeJPjbPEICjF9XcAvaiIeJLhy/dMSt5/1s9tMv0+B0w85nYYg9cdDoBi6YTsGguvwCN8TziOMZ52iQpYPTk93+Sy3kSQ2T8x3bSLpnIXFFQl7/QW3mOfGkZe+UKxmanEuRB/k6Srpg0ZYSmp6BVJlZVqtGIajRCgczmZHmO6eUYa8msBWMQIyDNU5qaolkF2pQQGhWNEdWIRiX4QAyR4Gqi88RpydHQLi3PVZkF7wneQ1lO/Txzpocc72/v75cD3bPXEpf/FLrodAIWTSdg0SQFRD85jziO9l2nfScFlINf8eXuqQQ0C6HYxj3+OWmXTGQaA5PtR5jhY+zSKqZ/FdNbQua5wJ7kB0VdQSiH+HIH9XWrca0zcQwONxrAaICIYGwfsX3E9jC2h5gekhmQHEQagWY6wTE2V3lVYgxo9BA90Xs0VMR6gtZV88UCmCUjz1VKqCqhnsC+NXq0Uz38WeJE+1m5/KfQRacTsGj+DwLkx7MP41h+SBkkBfisvg76JXCeN/ugcDfY/EbKsPVhvHbjs1eMt+8D7wFvA/02PzVDHqhAvlP4GrVf7dz/dLNNXPNlk7c+z9dWh2+K8oYRfVWVl0FeQllHWKf5o88CV6cChoAHCpAB8AT4DXQTlZ9U5cFOsfyA7z9pVz90dHRcHv4Cd7Nuvq2Ur5kAAAAASUVORK5CYII="/></a>
                 </div>
                 <div class="text ms-3">
-                    <h3 class="fs-4 text-danger font">Database</h3>
+                    <h3 class="fs-4 text-danger mt-2">Database</h3>
                     <!-- <p class="text-info"> https://api.covid19india.org/</p> -->
                 </div>
             </div>
@@ -350,10 +347,10 @@
                           <div class="col-lg-6 mb-4">
                             <b class="fs-5 text-white">Name :</b>
                               <input type="text" class="form-control form-control-lg border-info shadow-sm" name=""
-                                  id="" aria-describedby="helpId" placeholder="xyz">
+                                  id="" aria-describedby="helpId" placeholder="Name">
                           </div>
                           <div class="col-lg-6 mb-4">
-                            <b class="fs-5">Contact No. :</b>
+                            <b class="fs-5 text-white">Contact No. :</b>
                               <input type="text" class="form-control form-control-lg border-info shadow-sm" name=""
                                   id="" aria-describedby="helpId" placeholder=" +91">
                           </div>
@@ -362,7 +359,7 @@
                           <div class="col-lg-12 mb-4">
                             <b class="fs-5 text-white">Email :</b>
                               <input type="text" class="form-control form-control-lg border-info shadow-sm" name=""
-                                  id="" aria-describedby="helpId" placeholder="xyz@gmail.com">
+                                  id="" aria-describedby="helpId" placeholder="@gmail.com">
                           </div>
                       </div>
                       <div class="row">
@@ -374,7 +371,7 @@
                       </div>
                       <div class="row">
                           <div class="col-lg-12 my-3 ">
-                              <a href="" class="btn btn-light " id="neon">
+                              <a href="" class="btn btn-light  w-25" id="neon">
                                   Send message
                               </a>
                           </div>

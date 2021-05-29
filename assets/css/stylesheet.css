@@ -37,8 +37,8 @@ a {
   color: white;
   text-align: right;
   height: auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
   background-position: center;
   background-size: cover;
 }
@@ -491,6 +491,9 @@ margin-right: 2%;
   background-color: black;
 }
 
+.deco {
+  text-decoration: none !important;
+}
 
 .text-contents {
   width: 80%;
@@ -515,11 +518,11 @@ margin-right: 2%;
 }
 
 .message {
-  padding: 15px 40px;
-  background-color: #5dca88 !important;
+  /* padding: 15px 40px; */
+  /* background-color: #5dca88 !important; */
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-  text-decoration: none;
+  /* box-shadow: 0 7px #1a7940; */
+  text-decoration: none !important;
 }
 
 .message:active {
