@@ -1,12 +1,19 @@
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-function openNav() {
-    document.getElementById("mySidebar").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "150px";
-  }
-  
-  /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-  function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-  }
-  var video = document.getElementById("vido selector");
+fetch("https://api.covid19api.com/total/country/india")
+.then((res)=>{
+  return res.json();
+})
+.then((data)=>{
+  var length = data.length
+  var index = length - 1;
+  var cases = data[index];
+  // console.log(cases);
+  var recovered = document.getElementById("recovered")
+  var confirmed = document.getElementById("confirmed")
+  var deaths = document.getElementById("deaths")
+  var active = document.getElementById("active")
+  recovered.innerText=(cases.Recovered)
+confirmed.innerText = (cases.Confirmed)
+deaths.innerText = (cases.Deaths)
+active.innerText = (cases.Active)
+// console.log(cases.Recovered)
+})
