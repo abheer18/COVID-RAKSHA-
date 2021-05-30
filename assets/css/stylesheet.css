@@ -16,7 +16,10 @@ h1, h2, h3, h4, h5, h6, p, div {
   align-items: center;
 } */
 body {
-  font-family: "Lucida Grande";
+  /* font-family: 'Mate SC', serif; */
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Mate SC', serif;
+font-family: 'Shadows Into Light', cursive;
 }
 
 a {
