@@ -23,12 +23,6 @@ body {
   font-family: 'EB Garamond', serif;
 
 }
-#font_cha{
-  font-family: 'Cardo', serif;
-font-family: 'EB Garamond', serif;
-}
-
-
 
 a {
   text-decoration: none;
@@ -442,7 +436,9 @@ margin-right: 2%;
 
 /* Style links inside the columns */
 
-
+#font{
+  font-family: 'Play', sans-serif !important;
+}
 
 
 /* Clear floats after the columns */
