@@ -17,3 +17,5 @@ deaths.innerText = (cases.Deaths)
 active.innerText = (cases.Active)
 // console.log(cases.Recovered)
 })
+
+AOS.init();
