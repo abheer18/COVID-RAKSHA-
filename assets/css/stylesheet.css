@@ -10,7 +10,11 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
-
+/* .contact-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 body {
   font-family: "Lucida Grande";
 }
@@ -435,10 +439,11 @@ margin-right: 2%;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* .hello img
+.hello
 {
-  height: 20% !important;
-} */
+  height: 50vh !important;
+  width: auto;
+}
 
 .header-right a {
   line-height: 65px;
