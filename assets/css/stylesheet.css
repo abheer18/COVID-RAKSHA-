@@ -28,32 +28,22 @@ a {
   text-decoration: none;
 }
 
-.clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1000px;
-  padding: 0 15px;
-  margin: 0 auto;
-
-}
 
 .top-wrapper {
   padding: 100px 0 50px 0;
   background-image: url(https://www.elationhealth.com/wp-content/uploads/2020/04/covid-19_financial_toolkit_hero_background.jpg);
   background-size: cover;
   color: white;
-  text-align: right;
+  /* text-align: right; */
   height: auto;
   /* background-repeat: no-repeat;
   background-attachment: fixed; */
   background-position: center;
-  background-size: cover;
+  /* background-size: cover; */
 }
  
 
-
+/* 
 .top-wrapper h1 {
   opacity: 10;
   font-size: 45px;
@@ -64,9 +54,9 @@ a {
  -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     -moz-osx-font-smoothing: grayscale;
-}
+} */
 
-.top-wrapper p {
+/* .top-wrapper p {
   opacity: 1.1;
   margin-top: 5px;
   text-align: center;
@@ -74,13 +64,16 @@ a {
   -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     -moz-osx-font-smoothing: grayscale;
-}
+} */
 
 .top-title{
   font-size: 3rem;
 }
 .top-wrapper-img2 {
   /* width: 100%; */
+  background-position: center;
+  background-size: cover;
+
   height: 20%;
   background-image: url(https://www.bdpinternational.com/uploads/attachments/ck6axr5izcptnksqp75lnejn5-update-images4.0.130.2500.1406.max.png);
   background-size: cover;
@@ -465,9 +458,9 @@ margin-right: 2%;
 
 
 .lesson-wrapper {
-  width: 100%;
+  /* width: 100%; */
   height: auto;
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
   text-align: center;
   background-image: url(https://www.tmf-group.com/-/media/images/corporate-site/background-images/generic-website-imagery/covid19/coronavirus-1500x900.jpg) ;
  padding-top: 10px;
